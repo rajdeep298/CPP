@@ -15,11 +15,11 @@ class employee{
             this->employeeAge = employeeAge;
             this->salary = salary;
         }
-        employee(&e){
-            strcpy(this->employeeId, e.employeeId);
-            strcpy(this->employeeName, e.employeeName);
-            this->employeeAge = e.employeeAge;
-            this->salary = e.salary;
+        employee(employee &e){
+            strcpy(employeeId, e.employeeId);
+            strcpy(employeeName, e.employeeName);
+            employeeAge = e.employeeAge;
+            salary = e.salary;
         }
         void display();
         void calculatePension();
