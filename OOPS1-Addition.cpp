@@ -4,16 +4,11 @@ class Calculate{
     private:
         int a,b;
     public:
-        Calculate(int x, int y) {
-            a = x;
-            b = y;
-            cout << "Sum is: " << add() << endl;
-        }
-        int add() {
+        int add(int x, int y) {
             return a+b;
         }
 };
 int main() {
-    Calculate c(10,20);
-    int sum=c.add();
+    Calculate c;
+    int sum=c.add(10,20);
 }
