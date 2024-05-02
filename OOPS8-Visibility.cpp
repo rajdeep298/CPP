@@ -1,12 +1,12 @@
 using namespace std;
 #include <iostream>
 class Base {
-public:
-    int publicMember=10;
-protected:
-    int protectedMember=20;
-private:
-    int privateMember=30;
+    public:
+        int publicMember=10;
+    protected:
+        int protectedMember=20;
+    private:
+        int privateMember=30;
 };
 
 class DerivedPublic : public Base {
