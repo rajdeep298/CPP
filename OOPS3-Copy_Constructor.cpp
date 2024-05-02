@@ -9,7 +9,7 @@ class employee{
         char employeeName[100];
         int employeeAge;
         int salary;
-        employee(char employeeId[], char employeeName[], int employeeAge, int salary){
+        employee(char employeeId[], char employeeName[], int employeeAge, int salary){//Method Overloading
             strcpy(this->employeeId, employeeId);
             strcpy(this->employeeName, employeeName);
             this->employeeAge = employeeAge;
