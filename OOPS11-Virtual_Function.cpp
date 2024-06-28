@@ -22,6 +22,10 @@ int main(){
     BaseClass * base_class_pointer;
     BaseClass obj_base;
     DerivedClass obj_derived;
+
     base_class_pointer = &obj_derived; // Pointing base class pointer to derived class
+    base_class_pointer->display();
+
+    base_class_pointer = &obj_base; // Pointing base class pointer to base class
     base_class_pointer->display();
 }
