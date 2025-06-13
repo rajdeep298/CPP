@@ -18,3 +18,10 @@ int main(){
 	fun<int>(10);
 	fun<float>(10.14);
 }
+
+
+// Output:
+// The main template fun(): a
+// Specialized Template for int type: 10
+// The main template fun(): 10.14
+// Note: The template function fun is specialized for the int type, allowing it to handle int arguments differently from other types. The main function demonstrates calling the template with different types, including char, int, and float.

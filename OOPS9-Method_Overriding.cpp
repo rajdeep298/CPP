@@ -52,3 +52,6 @@ int main(){
         cout<<result[i]<<" ";
     return 0;
 }
+
+// Output:
+// 1 2 3 5 8

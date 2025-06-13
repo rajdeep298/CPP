@@ -29,6 +29,7 @@ int main()
 	return 0;
 }
 
+// Output:
 // Specialized template object
 // General template object
 // General template object

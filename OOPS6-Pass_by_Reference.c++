@@ -26,3 +26,9 @@ int main()
     cout << "After pass by pointer:" << a << endl;
     return 0;
 }
+
+//
+// Output:
+// Before: 10
+// After pass by reference: 20
+// After pass by pointer:20

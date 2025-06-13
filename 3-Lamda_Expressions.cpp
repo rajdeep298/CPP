@@ -74,3 +74,15 @@ int main(){
     //count_if is a function which takes a range and a lambda function as arguments
     
 }
+
+// Output:
+// 30
+// Before swapping: 10 20
+// After swapping by reference: 20 10
+// After swapping by address: 10 20
+// After swapping by value: 10 20
+// 10 20
+// 100 200
+// 100 200
+// 100 200
+// 1 2 3 4 5

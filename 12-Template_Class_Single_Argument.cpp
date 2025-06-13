@@ -34,3 +34,8 @@ int main(){
     a1.print();
     return 0;
 }
+
+// Output:
+//  1 2 3 4 5
+//  1.1 2.2 3.3 4.4 5.5
+// Note: The template class Array can be used with any data type, as shown in the main function with both int and double arrays.

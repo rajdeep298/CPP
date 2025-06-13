@@ -11,3 +11,8 @@ int main(){
     cout << add<double>(1.1, 2.2) << endl;
     cout << add<string>("Hello", "World") << endl;
 }
+
+// Output:
+// 3
+// 3.3
+// HelloWorld

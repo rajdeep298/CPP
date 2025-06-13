@@ -12,3 +12,6 @@ int main(){
     cout << "Multiplication OF 10 and 20: " << result<< endl;
     return 0;
 }
+
+// Output:
+// Multiplication OF 10 and 20: 215.25

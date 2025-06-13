@@ -40,3 +40,22 @@ int main() {
     cout << "After swapping by address: " << a << " " << b << endl;
     return 0;
 }
+
+// Output:
+// Before swapping: 10 20
+// After swapping by reference: 20 10
+// After swapping by reference: 20 10
+// After swapping by reference: 20 10
+// After swapping by reference: 20 10
+// After swapping by reference: 20 10
+// After swapping by reference: 20 10
+// After swapping by reference: 20 10
+// After swapping by address: 10 20
+// After swapping by address: 10 20
+// After swapping by address: 10 20
+// After swapping by address: 10 20
+// After swapping by address: 10 20
+// After swapping by address: 10 20
+// After swapping by address: 10 20
+// After swapping by address: 10 20
+// After swapping by address: 10 20

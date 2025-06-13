@@ -29,3 +29,7 @@ int main(){
     cout << "End of main function."<<endl;
     return 0;
 }
+
+// Output:
+// Constructor called.
+// End of main function.

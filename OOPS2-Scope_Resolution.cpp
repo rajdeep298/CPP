@@ -38,3 +38,11 @@ int main(){
     e1.calculatePension();
     return 0;
 }
+
+//
+// Output:
+// Employee Id: E001
+// Employee Name: John
+// Employee Age: 25
+// Employee Salary: 50000   
+// You are not eligible for pension

@@ -41,3 +41,10 @@ int main(){
 
     return 0;
 }
+
+
+// Output:
+// Dispalying Base class variable var_base 34
+// Dispalying Base class variable var_base 3400
+// Dispalying Base class variable var_base 9448
+// Dispalying Derived class variable var_derived 98

@@ -22,3 +22,7 @@ int main(){
 }
 
 //private constructor and destructor
+
+
+// Output:
+// 25

@@ -17,3 +17,6 @@ int main() {
   derivedClass anObject = derivedClass();
   anObject.sayHello();
 }
+
+// Output:
+// Hello! I am a derived class!

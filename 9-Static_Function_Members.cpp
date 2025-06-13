@@ -45,3 +45,9 @@ int main() {
 	
 	return 0; 
 }
+
+
+// Output:
+// Static member function is called through Object name:    The value of the length is: 10
+// The value of the breadth is: 20
+// The value of the height is: 30

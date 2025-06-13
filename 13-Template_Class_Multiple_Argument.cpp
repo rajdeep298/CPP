@@ -14,3 +14,9 @@ int main(){
     A<int, double> b;
     return 0;
 }
+
+// Output:
+// Constructor Called
+// Constructor Called
+// Note: The template class A can be instantiated with different types, as shown in the main function with char and int, double types.
+// This demonstrates the use of templates in C++ to create a class that can handle multiple data types.

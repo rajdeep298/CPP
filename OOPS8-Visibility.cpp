@@ -45,3 +45,8 @@ int main() {
     // cout<<d3.privateMember<<endl;// privateMember is not accessible
     return 0;
 }
+
+// Output:
+// 10
+// 20
+// 30

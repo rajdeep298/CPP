@@ -10,3 +10,8 @@ int main() {
     cout << largest(5, 10) << endl;
     return 0;
 }
+
+//
+// Output:
+// 5
+// 10

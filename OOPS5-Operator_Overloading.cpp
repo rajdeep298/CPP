@@ -70,3 +70,11 @@ int main(){
 
     return 0;
 }
+
+//
+// Output:
+// Enter real and imaginary part of first complex number: 5 2
+// Enter real and imaginary part of second complex number: 5 -3
+// Addition:Addition: 10+ i.-1
+// Multiplication:Addition: 31+ i.-5
+// Subtraction:Addition: 0+ i.5

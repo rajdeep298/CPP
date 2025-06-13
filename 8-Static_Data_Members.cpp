@@ -27,3 +27,9 @@ int main(){
     anil3.humanTotal();
     return 0;
 }
+
+// Output:
+// Before creating any object: 0
+// There are 1 people in this program.
+// There are 2 people in this program.
+// There are 3 people in this program.

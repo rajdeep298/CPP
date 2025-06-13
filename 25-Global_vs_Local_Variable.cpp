@@ -9,3 +9,8 @@ int main(){
     cout << ::x << endl; // 10 we use ::(scope resolution) to access global variable
     return 0;
 }
+
+//
+// Output:
+// 20
+// 10

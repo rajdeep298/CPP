@@ -90,3 +90,13 @@ int main(){
     F f;
     return 0;
 }
+
+// Output:
+// Constructor of A1                                                                                                          
+// Constructor of E
+// Constructor of A1
+// Constructor of F
+// Destructor of F
+// Destructor of A1
+// Destructor of E
+// Destructor of A1

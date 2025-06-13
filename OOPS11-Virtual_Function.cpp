@@ -29,3 +29,10 @@ int main(){
     base_class_pointer = &obj_base; // Pointing base class pointer to base class
     base_class_pointer->display();
 }
+
+
+//
+// Output:
+// Dispalying Base class variable var_base 10
+// Dispalying Base class variable var_base 10
+// Dispalying Derived class variable var_derived 20

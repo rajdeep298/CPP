@@ -14,3 +14,7 @@ int main() {
     cout << n << endl;
     return 0;
 }
+
+// Output:
+// 0 1 2 3 4 
+// 0

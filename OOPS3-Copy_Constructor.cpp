@@ -5,19 +5,19 @@ using namespace std;
 
 class employee{
     public:
-        char employeeId[100];
-        char employeeName[100];
+        string employeeId;
+        string employeeName;
         int employeeAge;
         int salary;
-        employee(char employeeId[], char employeeName[], int employeeAge, int salary){//Method Overloading
-            strcpy(this->employeeId, employeeId);
-            strcpy(this->employeeName, employeeName);
+        employee(string employeeId, string employeeName, int employeeAge, int salary){//Method Overloading
+            this->employeeId = employeeId;
+            this->employeeName = employeeName;
             this->employeeAge = employeeAge;
             this->salary = salary;
         }
-        employee(employee &e){
-            strcpy(employeeId, e.employeeId);
-            strcpy(employeeName, e.employeeName);
+        employee(const employee &e){
+            employeeId = e.employeeId;
+            employeeName = e.employeeName;
             employeeAge = e.employeeAge;
             salary = e.salary;
         }
@@ -47,3 +47,16 @@ int main(){
     e2.calculatePension();
     return 0;
 }
+
+//
+// Output:
+// Employee Id: E001
+// Employee Name: John
+// Employee Age: 25
+// Employee Salary: 50000
+// You are not eligible for pension
+// Employee Id: E001
+// Employee Name: John
+// Employee Age: 25
+// Employee Salary: 50000
+// You are not eligible for pension

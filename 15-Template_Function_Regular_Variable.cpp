@@ -27,3 +27,9 @@ int main(){
   
     return 0;
 }
+
+// Output:
+// 10
+// 1
+// Note: The template function arrMin is designed to find the minimum value in an array of type T, with a maximum value specified by the second template parameter. The main function demonstrates its usage with both int and char arrays, showcasing the flexibility of templates in C++. The second template parameter must be a constant, as shown in the calls to arrMin.
+// The output confirms that the function correctly identifies the minimum values in both arrays, demonstrating the utility of templates for type-generic programming in C++.
