@@ -1,3 +1,4 @@
+// File: 10-Static_Object.cpp
 using namespace std;
 #include <iostream>
 

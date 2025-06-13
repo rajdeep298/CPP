@@ -1,3 +1,4 @@
+// File: 24-Inline_Functions.cpp
 using namespace std;
 #include <iostream>
 
