@@ -1,10 +1,10 @@
 using namespace std;
 #include <iostream>
 
-extern int ext1;👈//Declaration of a variable or function simply declares that the variable or function exists somewhere in the program, but the memory is not allocated for them. 
+extern int ext1;//👈Declaration of a variable or function simply declares that the variable or function exists somewhere in the program, but the memory is not allocated for them. 
 
 
-int ext2;👈//Coming to the definition, when we define a variable or function, in addition to everything that a declaration does, it also allocates memory for that variable or function. 
+int ext2;//👈Coming to the definition, when we define a variable or function, in addition to everything that a declaration does, it also allocates memory for that variable or function. 
 
 int  main(){
     //integer
