@@ -2,12 +2,13 @@
 #include <iostream>
 using namespace std;
 
-template <class T, class U> class A {
+template <class T, class U> 
+class A {
     T x;
     U y;
 
-public:
-    A() { cout << "Constructor Called" << endl; }
+    public:
+        A() { cout << "Constructor Called" << endl; }
 };
 
 int main(){
