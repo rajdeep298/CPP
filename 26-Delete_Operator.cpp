@@ -7,6 +7,7 @@ struct Demo {
     int data;
     static void operator delete(void* ptr) { // for non-array delete
         cout << "Custom delete operator called." << endl;
+        // Local delete Operator ; class specific
         ::operator delete(ptr); // Free the allocated memory
         // Note: Using the global delete operator to actually free memory. Used instead of delete ptr; to avoid recursion.
     }
@@ -18,6 +19,7 @@ struct Demo {
 };
 
 
+// delete used below are Global delete operators unless overloaded in class
 int main(){
 
     
