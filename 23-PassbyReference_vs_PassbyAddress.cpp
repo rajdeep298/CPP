@@ -41,12 +41,12 @@ int main() {
     p = &y; // 1. Pointer reinitialization allowed
 
     int& r = x;
-    // &r = y;                 // 1. Compile Error
+    // &r = y;                 // 1. Compile Error as references cannot be reinitialized
 
     r = y; // 1. x value becomes 6
 
     p = NULL;
-    // &r = NULL;             // 2. Compile Error
+    // &r = NULL;             // 2. Compile Error as references cannot be null
 
     // 3. Points to next memory location
     p++;
